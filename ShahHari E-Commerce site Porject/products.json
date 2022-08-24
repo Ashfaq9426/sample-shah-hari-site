@@ -29,7 +29,7 @@
       "fields": {
         "title": "Bitter Gourd",
         "price": 22.99,
-        "image": { "fields": { "file": { "url": "./Assets/product-images/pro4.jpg" } } }
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro4.JPG" } } }
       }
     },
     {
