@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+    --primary-color: rgb(207, 81, 35);
+    --secondery-color: rgb(200, 72, 26);
+    --white: #fff;
+    --black: rgb(0, 0, 0);
+    --mainWhite: rgb(228, 223, 216);
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'lato', sans-serif;
+    background-color: var(--mainWhite);
+}
+
+/*---navbar section---*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--black);
+}
+
+nav section {
+    padding: 15px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav section a {
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    cursor: pointer;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+}
+
+.fa-search {
+    color: var(--white);
+    cursor: pointer;
+}
+
+nav form input {
+    margin-right: 3px;
+    padding: 2px;
+    border-radius: 5px;
+    outline-style: none;
+    letter-spacing: var(--mainSpacing);
+}
+
+.nav-icon {
+    font-size: 1.35rem;
+    color: var(--white);
+}
+
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    color: var(--white);
+    padding: 0 5px;
+    border-radius: 30%;
+    background: var(--primary-color);
+}
+
+.fa-bars {
+    color: var(--white);
+    position: absolute;
+    right: 95px;
+    top: 13px;
+    font-size: 1.5rem;
+    display: none;
+}
+
+@media only screen and (max-width: 995px) {
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav section ul {
+        display: none;
+    }
+
+    nav section ul li {
+        margin-bottom: 10px;
+    }
+
+    nav section ul li:last-child {
+        margin-bottom: 15px;
+    }
+
+    nav form {
+        display: none;
+    }
+
+    .cart-btn {
+        position: absolute;
+        right: 200px;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .fa-bars {
+        right: 35px;
+    }
+
+    .cart-btn {
+        right: 100px;
+    }
+}
+
+.add-to-logo {
+    margin-bottom: 20px;
+}
+
+.add-to-nav-section {
+    flex-direction: column;
+}
+
+.add-to-ul {
+    display: block;
+    transition: var(--mainTransition);
+    margin-bottom: 10px;
+}
+
+.add-to-nav-form {
+    display: block;
+    margin-bottom: 30px;
+}
+
+/*----------footer section---------*/
+#contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.branches ul {
+    margin-bottom: 50px;
+}
+
+.branches ul li,
+.branches h3 {
+    margin: 0 0 15px 60px;
+    list-style-type: none;
+}
+
+.branches h3 {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 2000px) {
+
+    .branches ul {
+        margin-left: 300px;
+    }
+
+    .branches h3 {
+        margin-left: 360px;
+    }
+}
+
+.branches ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.contact-info {
+    margin-right: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.contact-info ul li {
+    margin: 10px 0 10px 0;
+    font-size: large;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.contact-info ul li a {
+    font-size: large;
+    font-weight: bold;
+    color: var(--black);
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+}
+
+.contact-info h3 {
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 19px;
+    font-size: large;
+}
+
+.contact-info ul li:hover a {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 604px) {
+    #contact-info {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .contact-info {
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .contact-info h3 {
+        letter-spacing: 1px;
+    }
+
+    .contact-info ul li {
+        font-size: medium;
+    }
+
+    .contact-info ul li a {
+        font-size: medium;
+        letter-spacing: 1px;
+    }
+}

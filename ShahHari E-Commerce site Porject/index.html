@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- open graph meta tags (facebook, linkedin) -->
+    <meta property="og:title" content="Shah Hari E-Commerce Site Page">
+    <meta property="og:description"
+        content="An E-Commerce site page for selling cooked foods, fast foods, deserts and cakes, raw fruits and vegetables, Weaving Sarees and much more ">
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html">
+    <meta property="og:image" content="./Assets/Screenshot 2022-08-10 at 14-08-49 Shah Hari E-Commerce Site Page.png">
+
+    <!-- twitter meta tags -->
+    <meta name="twitter:title" content="Shah Hari E-Commerce Site Page">
+    <meta name="twitter:description"
+        content="An E-Commerce site page for selling cooked foods, fast foods, deserts and cakes, raw fruits and vegetables, Weaving Sarees and much more ">
+    <meta name="twitter:image" content="./Assets/Screenshot 2022-08-10 at 14-08-49 Shah Hari E-Commerce Site Page.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="./Assets/food.png">
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>Shah-Hari</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section>
+                <a href="#logo">Shah-Hari</a>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact-info">Contact Us</a></li>
+                </ul>
+
+                <form role="search">
+                    <input class="searchBar" type="text" placeholder="Search Here">
+                    <span><i class="fas fa-search"></i></span>
+                </form>
+
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus" aria-hidden="false"></i>
+                    </span>
+                    <div class="cart-items">0</div>
+                </div>
+            </section>
+            <i class="fas fa-bars"></i>
+        </nav>
+
+        <section class="hero" role="banner">
+            <div id="slider">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </div>
+        </section>
+    </header>
+    <main role="main">
+        <section class="products">
+            <div class="section-title" role="heading" aria-level="1">
+                <h1>our products</h1>
+            </div>
+            <div class="products-center">
+                <!-- <article class="product">
+                    <div class="img-container">
+                        <img class="product-img" src="./Assets/product-images/pro1.jpg" alt="product">
+                        <button class="bag-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            add to cart
+                        </button>
+                    </div>
+                    <h3>Fish Curry</h3>
+                    <h4>TK.250 only</h4>
+                </article> -->
+            </div>
+        </section>
+    </main>
+    <aside>
+        <!--cart and cart overlay-->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>your cart</h2>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <!-- <div class="cart-item">
+                                        <img src="./Assets/product images/pro1.jpg" alt="product">
+                                        <div>
+                                            <h4>Fish Curry</h4>
+                                            <h5>TK.350 only</h5>
+                                            <span class="remove-item">remove</span>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-chevron-up"></i>
+                                            <p class="item-amount">1</p>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div> -->
+                </div>
+                <div class="cart-footer">
+                    <h3>your total : TK. <span class="cart-total">0</span></h3>
+                    <button class="clear-cart">Clear Cart</button>
+                    <button class="clear-cart">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <aside>
+        <img src="./Assets/BannerImg/offer.jpg" alt="Great Offer About Our Product">
+    </aside>
+    <section class="our-team" id="about">
+        <h2>Our Team</h2>
+        <ul>
+            <li>
+                <a href="#">
+                    <article>
+                        <img src="./Assets/Team-Images/ShahedUncle.jpg" alt="Shahed Muhammad's Image">
+                        <h3>Shahed Muhammad</h3>
+                        <p>Faculty Member, Department of Management, School of Business and Economics at North South
+                            University</p>
+                    </article>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <article>
+                        <img src="./Assets/Team-Images/MasudUncle.jpg" alt="Masudul Alam's Image">
+                        <h3>Masudul Alam</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti pariatur et corporis, eaque
+                            doloremque animi.</p>
+                    </article>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <article>
+                        <img src="./Assets/Team-Images/RashedUncle.jpg" alt="Md Rashedul Alam's Image">
+                        <h3>Rashedul Alam</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ea consectetur
+                            quisquam qui quidem.</p>
+                    </article>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <footer id="contact-info">
+        <section class="branches">
+            <h3>Our Branches</h3>
+            <ul>
+                <li>
+                    <a href="#Dhaka">Dhaka</a>
+                </li>
+                <li>
+                    <a href="#Narshingdi">Narshingdi</a>
+                </li>
+                <li>
+                    <a href="#Kumilla">Kumilla</a>
+                </li>
+                <li>
+                    <a href="#Rajhshahi">Rajhsahi</a>
+                </li>
+                <li>
+                    <a href="#Sylhet">Sylhet</a>
+                </li>
+            </ul>
+        </section>
+        <section class="contact-info">
+            <h3>For any query our contact information is down bellow</h3>
+            <ul>
+                <li>
+                    Email: <a href="mailto: shahhari@example.com">shahhari@example.com</a>
+                </li>
+                <li>Phone: <a href="tel: +8801970703586">01970703586</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>

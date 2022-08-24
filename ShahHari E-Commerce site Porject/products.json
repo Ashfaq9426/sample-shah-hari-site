@@ -1,0 +1,244 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Fish Curry",
+        "price": 250,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Beaf Curry",
+        "price": 350,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Chicken Curry",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Bitter Gourd",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Pasta",
+        "price": 250,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Noodles",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Fried Chicken",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Milk Shake",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro8.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Birthday Cake",
+        "price": 1000,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Chocolate",
+        "price": 300,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/pro10.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "Weaving Saree One",
+        "price": 950,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Weaving Saree Two",
+        "price": 2000,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Weaving Saree Three",
+        "price": 1200,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Weaving Saree Four",
+        "price": 2400,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "Weaving Saree Five",
+        "price": 2550,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "Weaving Saree Six",
+        "price": 7100,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "Weaving Saree Seven",
+        "price": 1920,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "Weaving Saree Eight",
+        "price": 5000,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws8.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "Weaving Saree nine",
+        "price": 3000,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "Weaving Saree Ten",
+        "price": 5500,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/ws10.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "21" },
+      "fields": {
+        "title": "Raw Bananas",
+        "price": 500,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/f1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "22" },
+      "fields": {
+        "title": "ripe bananas",
+        "price": 750,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/f2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "23" },
+      "fields": {
+        "title": "3kg Dragon Fruits",
+        "price": 1500,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/f3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "24" },
+      "fields": {
+        "title": "Ripe Mango Pack(4)",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/f4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "Ripe Jackfruit",
+        "price": 170,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/f5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "26" },
+      "fields": {
+        "title": "Banana Floral Stem",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/v1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "27" },
+      "fields": {
+        "title": "Small Round Potatoes(1kg)",
+        "price": 70,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/v2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "28" },
+      "fields": {
+        "title": "Flat Beans",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/v3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "29" },
+      "fields": {
+        "title": "Red Spinach",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/v4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "30" },
+      "fields": {
+        "title": "Stem Spinach",
+        "price": 130,
+        "image": { "fields": { "file": { "url": "./Assets/product-images/v5.jpg" } } }
+      }
+    }
+  ]
+}
